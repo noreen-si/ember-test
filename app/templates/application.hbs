@@ -1,0 +1,14 @@
+{{page-title "EmberQuickstart"}}
+{{!-- has the actual html --}}
+<nav>
+    {HOME} 
+</nav>
+{{!-- following three lines go in hello --}}
+{{page-title "Hello"}}
+<h1>Hello World</h1>
+<LinkTo @route="goodbye">goodbye!</LinkTo>
+{{outlet}}
+
+{{! The following component displays Ember's default welcome message. }}
+<WelcomePage />
+{{! Feel free to remove this! }}
